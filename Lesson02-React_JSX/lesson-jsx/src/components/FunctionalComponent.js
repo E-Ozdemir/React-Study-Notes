@@ -1,24 +1,26 @@
+import React from "react";
+//es7 shortcuts
+// rfc= react functional component or rcc = react class component
+// rfce or rafce
 
 
-function Emre(props) {
+const Emre = () => {
     return(
         <div>
-            <h1>Functional Component</h1>
-            <p>{props}</p>
+            <p><b> Arrow Functional</b> Component</p>
         </div>
     );
 }
 
 export default Emre;
 
-
-// function Emre({name2}) {
+// function Emre() {
 //     return(
 //         <div>
-//             <h1>Functional Component</h1>
-//             <p>{name2}</p>
+//             <p><b>Functional</b> Component</p>
 //         </div>
 //     );
 // }
 
 // export default Emre;
+
