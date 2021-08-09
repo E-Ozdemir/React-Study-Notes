@@ -1,0 +1,39 @@
+Jsx => js codun icine html codlarini yazmamiza olanak sagliyor.(class component)
+-img tag kullanildiginda xml kurali geregince tag'i kapatmamiz gerekiyor.
+-style da iki süslü parantez kullaniyoruz.
+-camel case yazilmali yani ilk harf büyük.
+-class tanimlamasi className = ile veriliyor
+
+babeljs => react kodlarini js kodlarina ceviren v8 engine.
+
+Component nedir?
+-bilesen anlamina gelir.
+-kücük, tekrar kullanabilir kod parcaciklari...
+
+-Componentler, uygulamanızı tekrar kullanılabilir parçalara ayırmanıza ve her bir parçayı ayrı ayrı düşünmenize izin verir. Bu bir buton, bir form, bir diyalog, bir ekran vb. gibi olabilir.
+-amaclari girdiye göre cikti vermektir
+
+iki tür component yapisi var
+1-class component
+2-function component
+
+-return icerisinde tek viv olmali!!!!!
+
+-CLASS Component(statefull component)
+
+class sinifismi extends React.Component{
+    render()
+} 
+
+
+-Functional component(stateless component) state konusunda sikintili
+
+function welcome(){
+    return <h1> hello </h1>;
+}
+
+---state
+degisirse render olur.
+
+
+constructor class componentler olusturulurken ilk cagirilan ve olusturulan yapidir.
