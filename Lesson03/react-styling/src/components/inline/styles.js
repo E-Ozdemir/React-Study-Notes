@@ -2,9 +2,10 @@
     par : {
       color:"blue",
       fontSize:"1.2rem",
-      fontWeight:"bolder"
+      fontWeight:"bolder",
+      padding: "2rem"
     },
     secondDiv: {
-      backgroundColor:"#b0b0b0"
+      backgroundColor:"orange"
     }
   }
