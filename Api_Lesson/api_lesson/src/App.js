@@ -1,14 +1,18 @@
 import {useState,useEffect} from 'react'
 import Card from './components/Card'
 // import data from './data.json'
+import axios from 'axios'
 
 function App(){
   const [itemList,setitemList] =useState([]);
 
   useEffect(() => {
-    fetch('https://breakingbadapi.com/api/characters')
-    .then(response => response.json())
-    .then(data=>setitemList(data));
+    // fetch('https://breakingbadapi.com/api/characters')
+    // .then(response => response.json())
+    // .then(data=>setitemList(data));
+    axios.get('https://breakingbadapi.com/api/characters')
+    .then((res)=> setitemList(res.data))
+    //res ile bana object döndü. icerisinde data diye bir degisken var ve bilgileri ordan cekiyoruz.
 
   }, [])
 
