@@ -1,0 +1,5 @@
+Class componnetleri hooklarda kullanamayiz.
+Hooklar sadece functional componentlerde kullanilabilir.
+
+
+Hooklar sayesinde componentlerimizi bölebilecegiz. Bu sayede render edilmesini istemedigiz kisimlar render olmayacak.
