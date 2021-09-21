@@ -9,3 +9,5 @@
       backgroundColor:"orange"
     }
   }
+
+  //birden fazla file export edilecekse default yazilmaz sadece export  ve ardindan degisken adi yazilir....
