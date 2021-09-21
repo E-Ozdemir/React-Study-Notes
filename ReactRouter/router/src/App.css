@@ -1,0 +1,28 @@
+nav{
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 40 px;
+}
+nav h1{
+  letter-spacing: 3px;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+h1{
+  text-align: center;
+}
+p{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}

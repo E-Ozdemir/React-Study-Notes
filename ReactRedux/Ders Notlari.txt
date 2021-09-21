@@ -1,0 +1,23 @@
+npm install redux react-redux
+(reduxin react redux kütüphanesini indiriyoruz...)
+
+dispatch icine action functionunu koycaz artirmak istiyoruz mesela. reducer  bakacak benim artirma fonksiyonum var mi var , reducer onu calistircak....
+
+store da globalde tutmak istedigimiz State lerimiz var...
+
+
+:::>>>> Redux Bileşenleri
+ActionCreator
+Bir state’in güncellenmesi için action tarafından tetiklenmesi gerekir. Nasıl güncellenmesi gerektiğini hangi fonksiyonların çalışması gerektiğini burada belirleriz.
+Store
+Statelerin değerlerinin tutulduğu bir nevi depodur. Flux’da birden fazla store bulunurken Redux’da sadece bir tane store bulunur ve her iş burada yapılır.
+
+Reducer(burdaki fonk. lar pure func lardir. yani func da degisim yapamayiz, ne gönderirsek o sayilarla mesela islemi yapar cikti verir, biz ekstra bir islem yaptiramayiz)
+
+Reducer’lar store’da yapılacak değişiklikleri state’i değiştirmeden state’in kopyasını alarak değişiklikleri bunun üzerinde yapar. State direk olarak işlenmez bunun yerine state’ler parçalanır ve her bir parça kopyalanır daha sonra bütün bu parçalar yeni bir state içinde birleştirilir. Bu sayede eski ve yeni state bir arada saklanır. Bu teknoloji eski sürüme dönmeye olanak sağlar.
+
+Provider
+Store’un tüm uygulamaya etki etmesini sağlayan , uygulamanın etrafını sarmalayan bir yapıdır.
+
+Connect
+Eğer bir bileşen bir state’in güncellenmesini isterse connect()’i kullanarak kendini sarmalar.
